@@ -2,11 +2,11 @@
 
 int main() {
 
-    double area, raio;
+    double pi = 3.14159, area, raio;
     printf("");
     scanf("%lf", &raio);
 
-    area = 3.14159 * (raio * raio);
+    area = pi * (raio * raio);
 
     printf("A=%.4lf\n", area);
     return 0;
