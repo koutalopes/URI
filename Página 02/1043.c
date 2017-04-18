@@ -6,9 +6,9 @@ int main() {
     printf("");
     scanf("%lf %lf %lf", &A, &B, &C);
 
-    if (((abs(B - C) < A) && (A < (B + C))) &&
-        ((abs(A - C) < B) && (B < (A + C))) &&
-        ((abs(A - B) < C) && (C < (A + B)))) {
+    if (((fabs(B - C) < A) && (A < (B + C))) &&
+        ((fabs(A - C) < B) && (B < (A + C))) &&
+        ((fabs(A - B) < C) && (C < (A + B)))) {
             P = A + B + C;
             printf("Perimetro = %.1lf\n", P);
     } else {
