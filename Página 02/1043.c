@@ -5,7 +5,8 @@ int main() {
 
     printf("");
     scanf("%lf %lf %lf", &A, &B, &C);
-
+    
+    // fabs() for float | abs() for int
     if (((fabs(B - C) < A) && (A < (B + C))) &&
         ((fabs(A - C) < B) && (B < (A + C))) &&
         ((fabs(A - B) < C) && (C < (A + B)))) {
