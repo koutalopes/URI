@@ -8,7 +8,7 @@ int main() {
 
     if (((abs(B - C) < A) && (A < (B + C))) &&
         ((abs(A - C) < B) && (B < (A + C))) &&
-        ((abs(A - B) < C) && (C < (A + B))) {
+        ((abs(A - B) < C) && (C < (A + B)))) {
             P = A + B + C;
             printf("Perimetro = %.1lf\n", P);
     } else {
