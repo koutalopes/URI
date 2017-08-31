@@ -14,10 +14,8 @@ int main(){
             eM++;
         }
         grenal++;
-        while (s != 1 && s != 2) {
-            printf("Novo grenal (1-sim 2-nao)\n");
-            scanf("%i", &s);
-        }   
+        printf("Novo grenal (1-sim 2-nao)\n");
+        scanf("%i", &s);  
     } while (s == 1);
     printf("%i grenais\n", grenal);
     printf("Inter:%i\n", iN);
