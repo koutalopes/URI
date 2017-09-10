@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    freopen("test", "r", stdin);
+    //freopen("test", "r", stdin);
     int x[10];
 
     for(int i = 0; i < 10; i++){
